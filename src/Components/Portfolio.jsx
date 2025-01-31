@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+// const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -31,43 +31,43 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Secure Notes: OTP-Based Authentication",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A secure and user-friendly notes app with OTP-based registration, similar to Gmail authentication. Key features: Create, copy, and delete notes, ensure secure access with OTP verification, and sync notes across devices.",
+    url: "https://notes-app-2-v10w.onrender.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Bus Management System",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This project includes four portals: Admin, Teachers, Students, and Drivers. Key features: Live location tracking, Face-recognition attendance, Bus route management, and Student/Driver database maintenance.",
+    url: "https://github.com/Naaz-Ansari/Bus-management",
   },
   {
-    title: "My Resume Site",
+    title: "E-Commerce Cart (React & Redux)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is a frontend project built with React and Redux, featuring a dynamic shopping cart. Users can add and remove products, adjust quantities, apply coupons for discounts, and view automatic price calculations.",
+    url: "https://github.com/Naaz-Ansari/ECart",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Smart Weather App with Google Authentication",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This weather application provides real-time weather updates based on your location. Upon granting location access, it displays temperature, humidity, and other weather details. Users can securely sign in using Google authentication for a personalized experience.",
+    url: "https://github.com/Naaz-Ansari/Weather-App",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
+      <div className="portfolio-content">
+        {/* <div style={{ maxWidth: "70%", alignSelf: "center" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
-        </div>
+        </div> */}
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
