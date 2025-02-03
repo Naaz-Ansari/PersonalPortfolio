@@ -27295,10 +27295,10 @@ const About = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    backgroundColor: "white",
+                    backgroundColor: "rgba(255, 255, 255, 0.689)",
                     width: "70%",
                     padding: "4rem",
-                    margin: "1rem auto",
+                    margin: "0rem auto",
                     textAlign: "center"
                 },
                 children: [
@@ -28664,7 +28664,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
-            position: "fixed",
+            position: "sticky",
             display: "flex",
             justifyContent: "center",
             gap: "2rem",
@@ -28693,7 +28693,7 @@ const Header = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#portfolio",
-                children: "Portfolio"
+                children: "Projects"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 26,
@@ -28759,10 +28759,9 @@ var _myPhotoJpegDefault = parcelHelpers.interopDefault(_myPhotoJpeg);
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
-        className: "min-height",
+        className: "min-height home-main",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "home-container",
-            style: {},
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: [
@@ -28787,6 +28786,10 @@ const Home = ({ name , title  })=>{
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    style: {
+                        maxHeight: "250px",
+                        maxWidth: "250px"
+                    },
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _myPhotoJpegDefault.default),
                         style: {

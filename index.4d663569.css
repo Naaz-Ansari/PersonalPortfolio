@@ -23,6 +23,13 @@ section.min-height {
   min-height: 40vh;
 }
 
+.home-main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 section.padding {
   padding: 5rem 0;
 }
@@ -44,7 +51,7 @@ section img.background {
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
+  margin: 20px 0;
   display: flex;
 }
 
