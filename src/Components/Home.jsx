@@ -25,13 +25,13 @@ import image from "../images/My-photo.jpeg";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <div className="home-container" style={{}}>
+    <section id="home" className="min-height home-main">
+      <div className="home-container">
         <div>
           <h1>{name}</h1>
           <h2>{title}</h2>
         </div>
-        <div>
+        <div style={{maxHeight:"250px", maxWidth:"250px" }}>
           <img src={image} style={{ height: "250px", width: "250px", borderRadius: "50%", border:"2px,solid,white" }} alt=""/>
         </div>
       </div>

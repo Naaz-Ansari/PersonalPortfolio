@@ -98,10 +98,10 @@ const About = () => {
       <img className="background" src={image} style={{ opacity: "0.4" }} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "rgba(255, 255, 255, 0.689)",
           width: "70%",
           padding: "4rem",
-          margin: "1rem auto",
+          margin: "0rem auto",
           textAlign: "center",
         }}
       >

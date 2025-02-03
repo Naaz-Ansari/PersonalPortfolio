@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div
       style={{
-        position: "fixed",
+        position: "sticky",
         display: "flex",
         justifyContent: "center",
         gap: "2rem",
@@ -23,7 +23,7 @@ const Header = () => {
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#portfolio">Projects</a>
       <a href="#footer">Contact</a>
     </div>
   );
