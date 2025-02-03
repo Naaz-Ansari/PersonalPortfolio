@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Naaz Ansari",
-  title: "Web Developer | Full Stack Developer",
+  title: "Software Engineer | Full Stack Developer",
   email: "naazansari172001@gmail.com",
   gitHub: "Naaz-Ansari",
   instagram: "",
