@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Notes-Taking App: Speech to Text Converter.",
     description:
-      "A secure and personalised notes-taking app with speech to text converter. Key features: Create notes with reccording voice, copy, add to favourites, and delete notes.",
+      "A secure and personalized notes-taking app with speech to text converter. Key features: Create notes with reccording voice, copy, add to favourites, and delete notes.",
     url: "https://dcq3cg-5173.csb.app/",
   },
   {
