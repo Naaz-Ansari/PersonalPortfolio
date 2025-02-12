@@ -31,17 +31,23 @@ import React from "react";
  */
 const projectList = [
   {
+    title: "Notes-Taking App: Speech to Text Converter.",
+    description:
+      "A secure and personalised notes-taking app with speech to text converter. Key features: Create notes with reccording voice, copy, add to favourites, and delete notes.",
+    url: "https://dcq3cg-5173.csb.app/",
+  },
+  {
     title: "Secure Notes: OTP-Based Authentication",
     description:
       "A secure and user-friendly notes app with OTP-based registration, similar to Gmail authentication. Key features: Create, copy, and delete notes, ensure secure access with OTP verification, and sync notes across devices.",
     url: "https://notes-app-2-v10w.onrender.com/",
   },
-  {
-    title: "Bus Management System",
-    description:
-      "This project includes four portals: Admin, Teachers, Students, and Drivers. Key features: Live location tracking, Face-recognition attendance, Bus route management, and Student/Driver database maintenance.",
-    url: "https://github.com/Naaz-Ansari/Bus-management",
-  },
+  // {
+  //   title: "Bus Management System",
+  //   description:
+  //     "This project includes four portals: Admin, Teachers, Students, and Drivers. Key features: Live location tracking, Face-recognition attendance, Bus route management, and Student/Driver database maintenance.",
+  //   url: "https://github.com/Naaz-Ansari/Bus-management",
+  // },
   {
     title: "E-Commerce Cart (React & Redux)",
     description:
