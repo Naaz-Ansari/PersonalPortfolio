@@ -27111,7 +27111,7 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Naaz Ansari",
-    title: "Web Developer | Full Stack Developer",
+    title: "Software Engineer | Full Stack Developer",
     email: "naazansari172001@gmail.com",
     gitHub: "Naaz-Ansari",
     instagram: "",
@@ -28879,15 +28879,21 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
+        title: "Notes-Taking App: Speech to Text Converter.",
+        description: "A secure and personalised notes-taking app with speech to text converter. Key features: Create notes with reccording voice, copy, add to favourites, and delete notes.",
+        url: "https://dcq3cg-5173.csb.app/"
+    },
+    {
         title: "Secure Notes: OTP-Based Authentication",
         description: "A secure and user-friendly notes app with OTP-based registration, similar to Gmail authentication. Key features: Create, copy, and delete notes, ensure secure access with OTP verification, and sync notes across devices.",
         url: "https://notes-app-2-v10w.onrender.com/"
     },
-    {
-        title: "Bus Management System",
-        description: "This project includes four portals: Admin, Teachers, Students, and Drivers. Key features: Live location tracking, Face-recognition attendance, Bus route management, and Student/Driver database maintenance.",
-        url: "https://github.com/Naaz-Ansari/Bus-management"
-    },
+    // {
+    //   title: "Bus Management System",
+    //   description:
+    //     "This project includes four portals: Admin, Teachers, Students, and Drivers. Key features: Live location tracking, Face-recognition attendance, Bus route management, and Student/Driver database maintenance.",
+    //   url: "https://github.com/Naaz-Ansari/Bus-management",
+    // },
     {
         title: "E-Commerce Cart (React & Redux)",
         description: "This is a frontend project built with React and Redux, featuring a dynamic shopping cart. Users can add and remove products, adjust quantities, apply coupons for discounts, and view automatic price calculations.",
@@ -28911,7 +28917,7 @@ const Portfolio = ()=>{
                 children: "Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
+                lineNumber: 68,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28932,12 +28938,12 @@ const Portfolio = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 81,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 74,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28945,29 +28951,29 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 83,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 73,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 71,
+                    lineNumber: 77,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 63,
+                lineNumber: 69,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 61,
+        lineNumber: 67,
         columnNumber: 5
     }, undefined);
 };
